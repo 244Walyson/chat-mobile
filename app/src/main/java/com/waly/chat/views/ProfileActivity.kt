@@ -51,6 +51,26 @@ class ProfileActivity : AppCompatActivity() {
 
         fetchUserData()
 
+        val task = binding.tasks
+        val teams = binding.teams
+        task.setOnClickListener {
+            task.setTextColor(resources.getColor(R.color.white))
+            teams.setTextColor(resources.getColor(R.color.gray_tertiary))
+            showTasks()
+        }
+        teams.setOnClickListener {
+            teams.setTextColor(resources.getColor(R.color.white))
+            task.setTextColor(resources.getColor(R.color.gray_tertiary))
+            showTeams()
+        }
+
+    }
+
+    private fun showTeams() {
+
+    }
+
+    private fun showTasks() {
 
     }
 
