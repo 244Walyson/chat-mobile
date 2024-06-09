@@ -99,6 +99,14 @@ class ChatRoomActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        motionLayout.findViewById<Button>(R.id.button_chat).setOnClickListener {
+            startActivity(Intent(this@ChatRoomActivity, MainActivity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
+            })
+            finish()
+        }
+
         motionLayout.findViewById<Button>(R.id.button_search).setOnClickListener {
             openSearchFromMenu()
             finish()

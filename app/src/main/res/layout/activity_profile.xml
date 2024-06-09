@@ -70,17 +70,19 @@
                 android:paddingHorizontal="70dp"
                 android:layout_marginTop="20dp">
                 <TextView
+                    android:id="@+id/teams"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#Projetos"
+                    android:text="Equipes"
                     android:textColor="@color/white"
                     android:fontFamily="@font/gordita_medium"
                     android:textSize="20dp"
                     android:layout_weight="1"/>
                 <TextView
+                    android:id="@+id/tasks"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="#Equipes"
+                    android:text="Tasks"
                     android:fontFamily="@font/gordita_medium"
                     android:textSize="20dp"
                     android:textColor="@color/gray_primary"/>

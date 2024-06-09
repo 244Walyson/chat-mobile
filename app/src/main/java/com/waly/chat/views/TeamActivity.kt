@@ -33,7 +33,9 @@ class TeamActivity : AppCompatActivity() {
         session = SessionManager(this)
         fullTeam = FullTeam()
 
-        fetchTeamDetails(intent.getStringExtra("teamId"))
+        val teamId = intent.getStringExtra("teamId")
+        if (teamId!!.contains("R")) teamId.replace("R", "")
+        fetchTeamDetails(teamId)
 
         val teamMembers = binding.teamMembers
         val teamBoards = binding.teamBoards
@@ -67,6 +69,7 @@ class TeamActivity : AppCompatActivity() {
                         fullTeam = team!!
                         showTeamDetails(team)
                     }
+                    Log.i("MORE FRAG", "Team details fetched ${response.body()}")
                 }
 
                 override fun onFailure(call: Call<FullTeam>, t: Throwable) {
@@ -122,7 +125,7 @@ class TeamActivity : AppCompatActivity() {
 
         var linearLayout: LinearLayout? = null
         var i = 1
-        val boards = fullTeam.boards!!
+        val boards = fullTeam.boards?.toMutableList() ?: mutableListOf()
         boards.forEachIndexed { index, board ->
 
             if (linearLayout == null) {
