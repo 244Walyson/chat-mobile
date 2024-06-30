@@ -20,23 +20,24 @@ Este projeto é um sistema de chat desenvolvido para ser integrado com um sistem
 
 Aqui estão algumas capturas de tela do aplicativo:
 
-### Tela de Login
-![Tela de Login](photos/Screenshot_20240609-164028_ChatUi.png)
+### Tela de Login, Tela Principal e Lista de Conversas
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/login.png" alt="Tela de Login" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/main.png" alt="Tela Principal" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/chat_list.png" alt="Lista de Conversas" width="300"/>
+</div>
 
-### Tela de Chat
-![Tela de Chat](photos/Screenshot_20240609-164238_ChatUi.png)
-
-### Lista de Conversas
-![Lista de Conversas](photos/Screenshot_20240609-164151_ChatUi.png)
-
-### Notificações
-![Notificações](photos/Screenshot_20240609-164134_ChatUi.png)
-
-### Detalhes da Conversa
-![Detalhes da Conversa](photos/Screenshot_20240609-164056_ChatUi.png)
+### Tela de Chat, Detalhes da Conversa e Notificações
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/chat.png" alt="Tela de Chat" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/notification.png" alt="Notificações" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/team_details.png" alt="Detalhes da Conversa" width="300"/>
+</div>
 
 ### Configurações
-![Configurações](photos/Screenshot_20240609-164124_ChatUi.png)
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/user_details.png" alt="Configurações" width="300"/>
+</div>
 
 ## Instalação
 
