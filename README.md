@@ -22,21 +22,21 @@ Aqui estão algumas capturas de tela do aplicativo:
 
 ### Tela de Login, Tela Principal e Lista de Conversas
 <div style="display: flex; gap: 10px;">
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/login.png" alt="Tela de Login" width="300"/>
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/main.png" alt="Tela Principal" width="300"/>
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/chat_list.png" alt="Lista de Conversas" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/login.png" alt="Tela de Login" width="200"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/main.png" alt="Tela Principal" width="200"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/chat_list.png" alt="Lista de Conversas" width="200"/>
 </div>
 
 ### Tela de Chat, Detalhes da Conversa e Notificações
 <div style="display: flex; gap: 10px;">
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/chat.png" alt="Tela de Chat" width="300"/>
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/notification.png" alt="Notificações" width="300"/>
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/team_details.png" alt="Detalhes da Conversa" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/chat.png" alt="Tela de Chat" width="200"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/notification.png" alt="Notificações" width="200"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/team_details.png" alt="Detalhes da Conversa" width="200"/>
 </div>
 
 ### Configurações
 <div style="display: flex; gap: 10px;">
-  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/user_details.png" alt="Configurações" width="300"/>
+  <img src="https://github.com/244Walyson/chat-mobile/blob/screenshots/screenshots/user_details.png" alt="Configurações" width="200"/>
 </div>
 
 ## Instalação
